@@ -1,6 +1,8 @@
 const { exec } = require("child_process");
 
-const stroke = () => exec("xdotool key Left");
+const stroke = key => exec(`xdotool key ${key}`);
 
-export const left = () => stroke("Left");
-export const right = () => stroke("Right");
+const left = () => stroke("Left");
+const right = () => stroke("Right");
+
+module.exports = { left, right };
