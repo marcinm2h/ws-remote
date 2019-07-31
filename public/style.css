@@ -1,0 +1,14 @@
+.buttons {
+  display: flex;
+}
+
+.button {
+  flex-grow: 1;
+  height: 100vh;
+}
+
+.button.right {
+  width: 60%;
+}
+.button.left {
+}

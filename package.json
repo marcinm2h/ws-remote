@@ -5,9 +5,11 @@
   "author": "Marcin <marcio.moch@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node src/index.js"
+    "start:server": "node src/index.js",
+    "start:client": "npx http-server public"
   },
   "dependencies": {
+    "http-server": "^0.11.1",
     "ws": "^7.1.1"
   }
 }
