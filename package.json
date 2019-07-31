@@ -1,0 +1,7 @@
+{
+  "name": "ws-remote",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Marcin <marcio.moch@gmail.com>",
+  "license": "MIT"
+}
